@@ -1,0 +1,72 @@
+/* .card-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100px;
+    height: 100px;
+    background-color: #ffb5b5;
+    color: aquamarine;
+}
+
+
+.cardBody{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+}
+
+
+.crd-tittle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+} */
+
+/* 
+.card-div {
+    display: flex;
+    flex-direction: row;
+    
+    width: 100wh;
+    height: 100px;
+    background-color: #ffb5b5;
+    
+} */
+
+/* .sentiment {
+    display: flex;
+    flex-direction: column;
+} */
+
+
+/* .lsit {
+    background-image:linear-gradient(to bottom right, rgba(255,255,255,0.2), rgba(255,255,255,0));
+} */
+/* ========================================================== */
+/* .content {
+    background-image:linear-gradient(to bottom right, rgba(255,255,255,0.2), rgba(172, 170, 170, 0.322));
+    backdrop-filter: blur(10px);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 700px;
+    backdrop-filter: "blur(10px)"; 
+    box-shadow: 10px 10px 10px rgba(30,30,30,0.5);
+}
+.main-div{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.img{
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center; 
+    align-items: center;
+}
+
+.descriprtion {
+    padding-left: 20px;
+} */

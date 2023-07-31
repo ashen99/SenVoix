@@ -1,0 +1,139 @@
+.maindivGameReviews {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  /* background: rgb(13, 18, 44); */
+  /* background-image: linear-gradient(to bottom right, #fc0345,#fc03b1,#4a03fc); */
+  overflow: auto;
+  padding: 20px;
+  align-items: center;
+  /* background: #000428 */
+  /* background: -webkit-linear-gradient(
+    to right,
+    #80CED7,
+    #007EA7
+  );  */
+  /* background: linear-gradient(
+    to right,
+    #80CED7,
+    #007EA7
+  );  */
+background: #0d122c;
+background: linear-gradient(135deg, #0d122c, #29349B);
+}
+
+/* ======================== overroll ============================== */
+.overroll {
+  width: 300px;
+  height: aut;
+  background: rgba(255, 255, 255, 0.29);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(255, 255, 255, 0);
+  backdrop-filter: blur(7.1px);
+  -webkit-backdrop-filter: blur(7.1px);
+  border: 1px solid rgba(255, 255, 255, 0.02);
+  color: white;
+  padding: 20px;
+}
+
+/* ========================== table =============================== */
+.table {
+  position: relative;
+  top: 20px;
+  max-height: 400px;
+  width: auto;
+  overflow-y: auto;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.29);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(255, 255, 255, 0);
+  backdrop-filter: blur(7.1px);
+  -webkit-backdrop-filter: blur(7.1px);
+}
+
+.table::-webkit-scrollbar {
+  width: 8px;
+}
+.table::-webkit-scrollbar-track {
+  background: #e8e8ed;
+}
+.table::-webkit-scrollbar-thumb {
+  background-color: rgba(172, 176, 180, 0.9);
+  border-radius: 20px;
+  border: 1px solid rgba(239, 239, 241, 0.7);
+}
+.tableContentDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* background-color: azure; */
+  color: #ffffff;
+  height: auto;
+  max-height: 400;
+}
+
+.img {
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.descriprtion {
+  padding-left: 20px;
+}
+
+/* ================= pagination ====================== */
+.paginationItemStyle {
+	background-color: #f6f6f6;
+	
+}
+
+/* .btn {
+
+} */
+
+.btn_next {
+  align-items: center;
+  appearance: none;
+  background-color: #3EB2FD;
+  background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd,sans-serif;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s,background-position .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.btn_next1:active,
+.btn_next:focus {
+  outline: none;
+}
+
+.btn_next:hover {
+  background-position: -20px -20px;
+}
+
+.btn_next:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}

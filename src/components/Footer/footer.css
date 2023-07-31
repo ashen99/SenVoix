@@ -1,0 +1,45 @@
+ /* .Footer {
+  background-color: darkorchid;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+}
+
+.ContactIcons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.svg {
+  cursor: pointer;
+} */
+
+/* .footer {
+    background-color: rgb(33,37,41);
+    height: 15vh;
+    color: white
+} */
+.main-footer {
+  position: relative;
+}
+
+#footer{
+	background-color:#212529 ;
+	color:#F4F5FF ;
+	font-size: 15px;
+	height: 130px;
+  justify-content: center;
+  align-items: center;
+}
+#socials{
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 17px;
+}
+#copyright{
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
